@@ -5,7 +5,7 @@ fun main() {
     println(frac1.divide(frac2))
     println(frac1.plus(frac2))
     println(frac1.minus(frac2))
-    println(trauncate(frac1))
+    println(truncate(frac1))
 }
 
 class Fraction(mricxveli: Int, mnishvneli:Int){
@@ -41,7 +41,7 @@ class Fraction(mricxveli: Int, mnishvneli:Int){
         return (Fraction(numn,decn))
     }
 }
-fun trauncate(fraction: Fraction):Fraction{
+fun truncate(fraction: Fraction):Fraction{
     val z = gamyofi(fraction.a,fraction.b)
     return Fraction(fraction.a/z,fraction.b/z)
 }
